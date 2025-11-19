@@ -52,6 +52,7 @@ nav {
     display: flex;
     position: sticky;
     top: 0px;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -59,13 +60,13 @@ nav .mainNavLinks {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    display: flex;
 }
 
 nav .mainLogo a {
     float: left;
     display: inline;
-    font-size: 2em;
-    padding: 4px;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
@@ -77,8 +78,6 @@ nav a {
     display: block;
     text-align: center;
 }
-
-nav li { float: left; /* used to get the list (<li>) elements in the navbar next to each other */ }
 
 /* HOMEPAGE "HERO" ELEMENT */
 #hero {
