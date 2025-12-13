@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     src: url(../fonts/OverusedGroteskRoman-VF.ttf);
     font-family: Overused-Grotesk;
@@ -54,6 +58,7 @@ nav {
     top: 0px;
     align-items: center;
     justify-content: space-around;
+    transition: all 0.3s ease;
 }
 
 nav .mainNavLinks {
@@ -68,6 +73,7 @@ nav .mainLogo a {
     display: inline;
     font-size: 2.5em;
     font-weight: 500;
+    transition: font-size 0.3s ease;
 }
 
 nav a {
@@ -77,6 +83,16 @@ nav a {
     padding: 15px;
     display: block;
     text-align: center;
+    transition: padding 0.3s ease;
+}
+
+/* Scrolled state - shrunk navigation */
+nav.nav-scrolled .mainLogo a {
+    font-size: 1.8em;
+}
+
+nav.nav-scrolled a {
+    padding: 10px;
 }
 
 /* HOMEPAGE "HERO" ELEMENT */
@@ -130,7 +146,16 @@ nav a {
     font-size: 1.2em;
 }
 
-.siteSection h1 { font-family: 2em; }
+.siteSection h1 { 
+    font-family: 2em; 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.siteSection p {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
 
 /* ABOUT ME */
 .aboutBoxContainer { 
