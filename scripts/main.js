@@ -1,23 +1,23 @@
 // SHUFFLE BETWEEN BACKGROUNDS UPON LOADING THE PAGE
 function selectBackground() {
-    const backgrounds = [
-        "images/backgrounds/Canada, Manitoba, Wapusk National Park, aurora borealis.jpg",
-        "images/backgrounds/Manila Skyline at Night.jpg",
-        "images/backgrounds/Tarantula nebula.jpg",
-        "images/backgrounds/China, Guangxi, rice fileds and mountains, sunset.jpg",
-        "images/backgrounds/Sunset over the swamp, Okavango Delta, Botswana.jpg",
-        "images/backgrounds/Flower Near Stream.jpg",
-        "images/backgrounds/Kenya, Meru NP, desert date tree (Balanites aegyptiaca) in savannah.jpg",
-        "images/backgrounds/light dock with dinner's  table.jpg",
-        "images/backgrounds/Red gerbera (Gerbera sp.) flower, close-up.jpg",
-        "images/backgrounds/Sunflower and blue sky.jpg",
-        "images/backgrounds/TREE AT THE FOUR SEASONS IN SUMMER.jpg",
-        "images/backgrounds/USA, Pennsylvania, field near site of Pickett's Charge.jpg"
-    ];
+    // const backgrounds = [
+    //     "images/backgrounds/Canada, Manitoba, Wapusk National Park, aurora borealis.jpg",
+    //     "images/backgrounds/Manila Skyline at Night.jpg",
+    //     "images/backgrounds/Tarantula nebula.jpg",
+    //     "images/backgrounds/China, Guangxi, rice fileds and mountains, sunset.jpg",
+    //     "images/backgrounds/Sunset over the swamp, Okavango Delta, Botswana.jpg",
+    //     "images/backgrounds/Flower Near Stream.jpg",
+    //     "images/backgrounds/Kenya, Meru NP, desert date tree (Balanites aegyptiaca) in savannah.jpg",
+    //     "images/backgrounds/light dock with dinner's  table.jpg",
+    //     "images/backgrounds/Red gerbera (Gerbera sp.) flower, close-up.jpg",
+    //     "images/backgrounds/Sunflower and blue sky.jpg",
+    //     "images/backgrounds/TREE AT THE FOUR SEASONS IN SUMMER.jpg",
+    //     "images/backgrounds/USA, Pennsylvania, field near site of Pickett's Charge.jpg"
+    // ];
 
-    const element = document.getElementsByTagName("body")[0];
-    const randomBg =  backgrounds[Math.floor(Math.random() * backgrounds.length)];
-    element.style.backgroundImage = `url("${randomBg}")`;
+    // const element = document.getElementsByTagName("body")[0];
+    // const randomBg =  backgrounds[Math.floor(Math.random() * backgrounds.length)];
+    // element.style.backgroundImage = `url("${randomBg}")`;
 }
 
 // NAVIGATION BAR SHRINK ON SCROLL
